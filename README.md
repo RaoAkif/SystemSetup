@@ -21,6 +21,17 @@ choco install PACKAGENAME -y
 choco install nodejs-lts git github-desktop googlechrome firefox visualstudiocode zoom postman -y
 ```
 
+## Set Environmental Variables for NPM
+```
+Set path for node.js in your environment variables. To do this:
+
+right click on MyComputer->properties->advance system setting-> Environment variables-> select & edit "Path" variable in System variables.
+Add C:\Program Files\nodejs\; in path
+Restart your command prompt
+Type node --version in a new console window, the version number should appear as a response.
+```
+
+
 ## Update All Choco Packages
 ```
 choco upgrade all -y
