@@ -16,9 +16,9 @@ choco list --local-only
 choco install PACKAGENAME -y
 ```
 
-## Nodejs LTS, Git, Github, Chrome, Firefox, Visual Studio Code, Zoom
+## Nodejs LTS, Yarn, Git, Github, Chrome, Firefox, Visual Studio Code, Zoom, Postman
 ```
-choco install nodejs-lts git github-desktop googlechrome firefox visualstudiocode zoom -y
+choco install nodejs-lts, yarn git github-desktop googlechrome firefox visualstudiocode zoom postman -y
 ```
 
 ## Update All Choco Packages
@@ -50,6 +50,14 @@ Go to:
 Open cmd prompt: run
 ```
 setup.exe --uninstall --system-level --verbose-logging --force-uninstall
+```
+
+## Set PowerShell Execution Policy Error in Windows Server
+```
+Open Powershell with Administrator Access: Type below command,
+Set-ExecutionPolicy RemoteSigned
+Select Y for Yes
+All Set !!!
 ```
 
 ---
