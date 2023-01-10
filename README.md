@@ -16,9 +16,9 @@ choco list --local-only
 choco install PACKAGENAME -y
 ```
 
-## Nodejs LTS, Yarn, Git, Github, Chrome, Firefox, Visual Studio Code, Zoom, Postman
+## Nodejs LTS, Git, Github, Chrome, Firefox, Visual Studio Code, Zoom, Postman
 ```
-choco install nodejs-lts, yarn git github-desktop googlechrome firefox visualstudiocode zoom postman -y
+choco install nodejs-lts git github-desktop googlechrome firefox visualstudiocode zoom postman -y
 ```
 
 ## Update All Choco Packages
