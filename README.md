@@ -52,3 +52,30 @@ Open cmd prompt: run
 setup.exe --uninstall --system-level --verbose-logging --force-uninstall
 ```
 
+---
+
+## GitHub Commands
+```
+git init
+git add .
+git status
+git commit -m 'your message'
+OR
+git commit -a
+
+git remote add origin 'your_url_name'
+git push -u origin master
+
+Create & Push on New Branch
+git pull
+git status
+git branch list
+git checkout NEW_BRANCH 
+git checkout -b NEW_BRANCH
+git push origin NEW_BRANCH
+git push # if on the same branch
+git push --set-upstream origin BRANCH_NAME  // If Upstream never created
+git branch -a
+git remote add [name_of_your_remote] NEW_BRANCH
+git push [name_of_your_new_remote] [url]
+```
