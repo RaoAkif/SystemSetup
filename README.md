@@ -16,9 +16,9 @@ choco list --local-only
 choco install PACKAGENAME -y
 ```
 
-## Nodejs LTS, Git, Github, Chrome, Firefox
+## Nodejs LTS, Git, Github, Chrome, Firefox, Visual Studio Code, Zoom
 ```
-choco install nodejs-lts git googlechrome firefox visualstudiocode -y
+choco install nodejs-lts git github-desktop googlechrome firefox visualstudiocode zoom -y
 ```
 
 ## Update All Choco Packages
@@ -30,3 +30,25 @@ choco upgrade all -y
 ```
 choco uninstall PACKAGENAME
 ```
+---
+
+## GitHub Integration
+
+### Generate SSH Keys
+```
+ssh-keygen -t rsa -C "raoakif"
+```
+
+### Installing Touch-CLI for UNIX systems
+```
+npm install touch-cli -g
+```
+
+## Remove Microsoft Edge Browser
+Go to:
+`C:\Program Files (x86)\Microsoft\Edge\Application\102.0.1245.44\Installer`
+Open cmd prompt: run
+```
+setup.exe --uninstall --system-level --verbose-logging --force-uninstall
+```
+
