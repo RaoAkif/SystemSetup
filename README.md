@@ -97,4 +97,6 @@ git push --set-upstream origin BRANCH_NAME  // If Upstream never created
 git branch -a
 git remote add [name_of_your_remote] NEW_BRANCH
 git push [name_of_your_new_remote] [url]
+npm i <dependencies-names> -D // From devDependencies to Dependencies
+npm i <dependencies-names> -P // From Dependencies to devDependencies
 ```
