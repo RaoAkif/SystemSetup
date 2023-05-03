@@ -18,7 +18,7 @@ choco install PACKAGENAME -y
 
 ## Nodejs LTS, Git, Github, Chrome, Firefox, Visual Studio Code, Zoom, Postman
 ```
-choco install nodejs-lts git github-desktop googlechrome firefox visualstudiocode zoom postman -y
+choco install nodejs-lts pnpm git github-desktop googlechrome firefox brave --pre visualstudiocode zoom postman -y
 ```
 
 ## Set Environmental Variables for NPM
