@@ -41,6 +41,16 @@ choco upgrade all -y
 ```
 choco uninstall PACKAGENAME
 ```
+
+---
+
+## Install Linux on Windows with WSL
+Open PowerShell or CMD Prompt in administrator mode & run:
+
+```
+wsl --install
+```
+
 ---
 
 ## GitHub Integration
